@@ -3,10 +3,11 @@ module form_wave (
 input wire CLK,
 input wire RESET,
 
-output reg count_down = 1'b0,
+/*output reg count_down = 1'b0,
 input wire [31:0] ADDER,
-output reg [31:0] DDS, 
+output reg [31:0] DDS, */
 
+ input wire [31:0] DDS, //***
 input wire [2:0] form
 );
 
